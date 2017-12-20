@@ -1,0 +1,153 @@
+@charset "UTF-8";
+/* banner */
+
+.banner {
+  background: url('../images/banner1-black-img1.jpg') no-repeat center top;
+  background-color: #32312d;
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner-city {
+  width: 1140px;
+  height: 60px;
+  margin-top: 460px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding:20px;
+  margin-bottom: 30px;
+}
+
+.banner-city dt {
+  float: left;
+  color: #000;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.banner-city dd {
+  float: left;
+}
+
+.banner-city dd:last-child {
+  width: 1000px;
+}
+
+.banner-city dd a {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 2px;
+  color: #000;
+  font-size: 14px;
+  margin: 0 10px;
+  border-radius: 2px;
+}
+
+.banner-city dd a:hover {
+    background: #2ec89f;
+    color: #fff;
+}
+
+.tag {
+  margin-bottom: 100px;
+}
+
+.tag span , .tag-xin{
+  cursor: pointer;
+  margin-right: 30px;
+  font-size: 16px;
+}
+
+.tag span:hover , .tag-xin:hover{
+  color: #1cb041;
+}
+
+.banner-item {
+  color: #000;
+  background-color: #fff;
+  height: 280px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.b-item-right {
+  float: left;
+  width: 720px;
+  height: 240px;
+  padding:20px;
+}
+
+.b-item-right h3 {
+  text-align: right;
+  margin-bottom: 40px;
+}
+
+.b-item-city , .b-item-h4-p-span {
+  float: left;
+}
+
+.b-item-right h2 {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.b-item-right h4 {
+  line-height: 25px;
+}
+
+.b-item-h4-p {
+  text-align: right;
+
+}
+
+.b-item-h4-p-linth {
+  text-decoration: line-through;
+  margin: 10px;
+}
+
+.b-item-r-buy {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.b-item-r-buy a {
+  display: block;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  background: #ff4621;
+}
+
+.banner-page {
+  float: right;
+  margin-bottom: 20px;
+}
+
+.banner-page a {
+  margin: 0 10px;
+}
+
+.banner-page a:hover {
+  color: #2ec89f;
+}
+
+.banner-page span {
+  display: inline-block;
+  vertical-align: top;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.banner-page span:hover {
+  background: #2ec89f;
+  color: #fff;
+}

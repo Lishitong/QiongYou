@@ -1,0 +1,261 @@
+@charset "UTF-8";
+/* footer-top */
+.footer-top {
+  padding-top: 30px;
+  padding-left: 86px;
+  height: 220px;
+  background-color: #f5f5f5;
+}
+
+.footer-top ul {
+  margin-bottom: 82px;
+}
+
+.footer-top li {
+  float: left;
+  padding-left: 31px;
+  padding-right: 22px;
+  border-right: 1px solid #dfdfe4;
+}
+.footer-top li:last-child {
+  border: none;
+}
+.footer-top li>a {
+  color: #000;
+  font-size: 18px;
+}
+
+.footer-top li>a:hover {
+  color: #1cb041;
+}
+
+.footer-top .f-t-item {
+  float: left;
+  width: 270px;
+  height: 58px;
+  margin-right: 54px;
+  padding-left: 80px;
+  line-height: 20px;
+}
+
+.f-t-item h3 {
+  color: #000;
+  font-size: 16px;
+}
+
+.footer-top .i-one {
+  margin-left: 34px;
+  background: url('../images/footerIcon_03.gif') no-repeat 1px 1px;
+}
+.footer-top .i-two {
+  background: url('../images/footerIcon_05.gif') no-repeat 1px 1px;
+}
+.footer-top .i-three {
+  background: url('../images/footerIcon_07.gif') no-repeat 1px 1px;
+}
+
+/* footer-bottom */
+.footer-bottom {
+  background: #333;
+  padding-top: 54px;
+  padding-left: 128px;
+  padding-bottom: 55px;
+  padding-right: 94px;
+}
+
+
+.f-b-left h1 {
+  color:#fff;
+  line-height: 35px;
+  font-size: 35px;
+  margin-bottom: 55px;
+  float: left;
+}
+
+.f-b-left p {
+  width: 526px;
+  float: left;
+  margin-left: 24px;
+  font-size: 14px;
+}
+
+.f-b-bottom li {
+  float: left;
+  padding-left: 21px;
+  padding-right: 18px;
+  font-size: 13px;
+  line-height: 13px;
+  border-right: 1px solid #ccc;
+  margin-bottom: 6px;
+}
+
+.f-b-bottom li:first-child {
+  padding-left: 0;
+}
+
+.f-b-bottom li:last-child {
+  border: none;
+}
+
+.f-b-bottom li>a:hover ,.f-b-bottom p>a:hover{
+  text-decoration: underline;
+}
+
+.f-b-bottom p {
+  line-height: 20px;
+}
+
+.f-b-bottom p>a {
+  margin: 5px;
+}
+
+.f-b-right {
+  width: 236px;
+}
+.f-b-r-g .p-item {
+  width: 54px;
+  height: 54px;
+  float: left;
+}
+
+.f-b-r-g .weixin {
+  position: relative;
+}
+
+.f-b-r-g .weixin {
+  background: url('../images/wechatS.png') no-repeat;
+}
+
+.f-b-r-g .weibo {
+  background: url('../images/weiboS.png') no-repeat;
+  position: relative;
+}
+
+.f-b-r-g .email {
+  background: url('../images/emailS.png') no-repeat;
+  position: relative;
+}
+
+.f-b-r-g .weixin:hover {
+  background: url('../images/wechatBig.png') no-repeat 1px 1px;
+}
+.f-b-r-g .weixin:hover>.weixin-tan,.f-b-r-g .weixin:hover>.weixinSan:after ,.weibo:hover>.weibo-tan,.weibo:hover>.weiboSan:after,.weibo:hover>.wei-shadow,.email:hover>.weibo-tan,.email:hover>.weiboSan:after,.email:hover>.wei-shadow{
+  display: block;
+}
+.f-b-r-g .weibo:hover {
+  background: url('../images/weiboBig.png') no-repeat 0px 1px;
+}
+
+.f-b-r-g .email:hover {
+  background: url('../images/emailBig.png') no-repeat 1px 0px;
+}
+
+.callour {
+  color:#fff;
+  font-size: 16px;
+  float: left;
+  margin-top: 16px;
+  margin-right: 10px;
+}
+
+.app {
+  color:#fff;
+  font-size: 16px;
+  float: left;
+}
+
+.erweima {
+  margin-top: 10px;
+  margin-left: 80px;
+  width: 78px;
+  height: 79px;
+  background: url('../images/erweima.png') no-repeat;
+}
+
+.weixin-tan {
+  position: absolute;
+  top: -132px;
+  right: -147px;
+  width: 226px;
+  height: 109px;
+  background: url('../images/weixinEr.png') no-repeat;
+  display: none;
+  padding-bottom: 30px;
+}
+
+.weixinSan:after{
+  content: '';
+  position: absolute;
+  top: -23px;
+  right: 22px;
+  border: 6px solid transparent;
+  border-top-color: #fff;
+  display: none;
+}
+
+.weibo-tan {
+  width: 224px;
+  height: 60px;
+  background: #fff;
+  position: absolute;
+  top: -83px;
+  left: -150px;
+  border: 1px solid #f0f0f0;
+  display: none;
+}
+
+.weibo-tan>a {
+  margin: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 80px;
+  height: 30px;
+  background-color: #ff7467;
+  font-size: 14px;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.weibo-tan span>a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.weiboSan:after {
+  content: '';
+  position: absolute;
+  top: -23px;
+  right: 22px;
+  border: 6px solid transparent;
+  border-top-color: #fff;
+  display: none;
+}
+
+.wei-shadow {
+  position: absolute;
+  top: -21px;
+  left: -150px;
+  width: 226px;
+  height: 21px;
+  display: none;
+}
+
+.weibo-tan input {
+  width: 130px;
+  height: 30px;
+  margin: 15px;
+  margin-right: 0;
+  border: 1px solid #f0f0f0;
+  float: left;
+}
+
+.email a{
+  float: left;
+  margin: 15px;
+  margin-left: 0;
+  width: 60px;
+  height: 28px;
+  background-color: #00b081;
+  border: 1px solid #00b081;
+}
